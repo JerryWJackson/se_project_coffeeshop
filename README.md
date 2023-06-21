@@ -13,4 +13,4 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- Consider adding a link on the recipes section to James Hoffman's YouTube channel for more awesome coffee knowledge videos.
