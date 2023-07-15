@@ -46,7 +46,7 @@
   text-decoration: none;
 }
 
-.header__title{
+.header__title {
   max-width: 729px;
   margin: 183px 0 0;
   font-size: 60px;
@@ -55,14 +55,14 @@
   letter-spacing: -0.6px;
 }
 
-.header__span-accent{
+.header__span-accent {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   color: #2f80ed;
   display: block;
 }
 
-.header__description{
+.header__description {
   max-width: 683px;
   margin: 28px 0 0;
   font-family: "Noto Serif", "Times New Roman", serif;
@@ -70,7 +70,7 @@
   line-height: 30px;
 }
 
-.header__image{
+.header__image {
   width: 568px;
   height: 646px;
   position: absolute;
@@ -78,7 +78,7 @@
   top: 124px;
 }
 
-.header__footer{
+.header__footer {
   display: flex;
   justify-content: space-between;
   font-weight: 500;
@@ -86,7 +86,7 @@
   margin-top: auto;
 }
 
-.header__paragraph{
+.header__paragraph {
   margin: 0;
 }
 
