@@ -15,17 +15,30 @@
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap"
+    />
     <title>Specialty Coffee in the Library</title>
   </head>
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img src="./images/logo_coffee_shop.svg" alt="coffee shop logo" class="nav__logo">
+          <ul class="nav__links">
+            <li><a href="#recipes" class="nav__link">Recipes</a></li>
+            <li><a href="#reservation" class="nav__link">Book a table</a></li>
+            <li><a href="#menu" class="nav__link">Menu</a></li>
+            <li><a href="#about" class="nav__link">Contacts</a></li>
+          </ul>
+        </nav>
+      </header>
       <main class="content">
-        <section class="recipes"></section>
-        <section class="menu"></section>
-        <section class="reservation"></section>
-        <section class="about"></section>
+        <section class="recipes" id="recipes"></section>
+        <section class="menu" id="menu"></section>
+        <section class="reservation" id="reservation"></section>
+        <section class="about" id="about"></section>
       </main>
       <footer class="footer"></footer>
     </div>
