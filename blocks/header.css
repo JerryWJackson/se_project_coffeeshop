@@ -1,7 +1,8 @@
 .header {
   background-image: url("../images/background_header.svg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: contain
+;
   background-size: cover;
   padding: 30px 80px 80px 40px;
   min-height: 720px;
