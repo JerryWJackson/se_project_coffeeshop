@@ -13,4 +13,6 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
-- Consider adding a link on the recipes section to James Hoffman's YouTube channel for more awesome coffee knowledge videos.
+- Consider adding a link in the Recipes section to James Hoffman's YouTube channel for more awesome coffee knowledge videos.
+- Style the checkbox in the Menu section to better match the submit button to show it's relationship.
+- Make the submit button in the Menu section disable until the checkbox accepting terms is checked.
