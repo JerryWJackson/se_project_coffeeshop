@@ -38,6 +38,11 @@
   font-weight: 500;
 }
 
+.form__button:hover {
+  opacity: 0.7;
+  transition: opacity 1s;
+}
+
 .form__checkbox-block {
   align-self: center;
 }
@@ -48,4 +53,11 @@
   width: 20px;
   margin-right: 12px;
   margin-bottom: 120px;
+}
+
+.form__checkbox:hover {
+  cursor: pointer;
+}
+.form__checkbox:checked {
+  background: url("../images/check.svg");
 }

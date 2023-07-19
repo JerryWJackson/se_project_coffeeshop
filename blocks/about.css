@@ -1,2 +1,69 @@
 .about {
+  background-color: #0a2850;
+  color: #ffffff;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 119px;
+  padding-right: 80px;
+  padding-bottom: 173px;
+}
+
+.about__title {
+  max-width: 251px;
+  margin-top: 100px;
+  margin-left: 80px;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  z-index: 1;
+  position: relative;
+  top: -119px;
+}
+
+.about_content {
+  max-width: 660px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about__paragraph {
+  width: 660px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.about__circle {
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: absolute;
+  left: -129px;
+  top: -152px;
+}
+
+.about__circle_animation_blurred {
+  animation-name: pulsate;
+  animation-duration: 1.3s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.4);
+    opacity: 0;
+  }
 }
