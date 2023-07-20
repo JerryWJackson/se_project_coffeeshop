@@ -61,6 +61,7 @@
 }
 
 .footer__copyright {
+  margin: 0;
   padding-bottom: 60px;
   padding-top: 108px;
   padding-left: 80px;
