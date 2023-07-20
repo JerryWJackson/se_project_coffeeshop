@@ -38,6 +38,8 @@
   background-color: #2f80ed;
   color: #ffffff;
   font-weight: 500;
+  opacity: 1;
+  transition: opacity 1s;
 }
 
 .form__button:hover {
