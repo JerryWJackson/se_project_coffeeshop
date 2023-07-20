@@ -22,6 +22,9 @@
   padding-bottom: 8px;
   font-weight: 500;
 }
+.form__label:first-of-type {
+  padding-top: 0;
+}
 
 .form__input {
   border: #838383 1px solid;
