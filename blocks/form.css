@@ -1,6 +1,8 @@
 .form {
   max-width: 385px;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .form__fieldset {
@@ -43,7 +45,7 @@
   transition: opacity 1s;
 }
 
-.form__checkbox-block {
+.form__label_type_checkbox {
   align-self: center;
 }
 
